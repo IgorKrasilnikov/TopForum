@@ -28,10 +28,12 @@
     <div class="header__bottom">
       <div class="container">
         <div class="header__bottom-inner">
-          <picture class="header__logo">
-            <source srcset="./img/webp/logo.webp 1x" type="image/webp">
-            <img src="./img/png/logo.jpg" alt="logo">
-          </picture>
+          <a class="header__logo" href="#">
+            <picture>
+              <source srcset="./img/webp/logo.webp 1x" type="image/webp">
+              <img src="./img/png/logo.jpg" alt="logo">
+            </picture>
+          </a>
           <div class="header__bottom-items">
             <div class="header__bottom-item">
               <img class="header__bottom-item-img" src="./img/png/header__bottom-item-img--1.jpg" alt="upcoming events">
@@ -43,9 +45,31 @@
             </div>
           </div>
           <a href="#" class="header__bottom-button btn">REGISTER NOW</a>
+          <div class="menu-btn">
+            <div class="menu-btn__burger">
+
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
+    <nav class="menu">
+      <div class="container container-menu">
+        <div class="close-btn"></div>
+        <div class="menu__list">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Exhibitors</a></li>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">UPCOMING EVENTS</a></li>
+            <li><a href="#">CONTACTS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <main class="main">
     <section class="hero" style="background-image: url('../img/png/hero__img.png'); min-height: 440px;">
@@ -128,6 +152,7 @@
           in your industry. Just invest in your future.</p>
       </div>
     </section>
+
     <section class="advantages">
       <div class="container">
         <div class="advantages__items">
@@ -189,7 +214,7 @@
           <a href="#" class="advantages__bottom-button btn">SUBSCRIBE</a>
         </div>
     </section>
-
+    
     <section class="reviews">
       <div class="container reviews__container">
         <h2 class="reviews__title">CUSTOMER REVIEWS</h2>
@@ -213,7 +238,7 @@
             <div class="reviews__slide swiper-slide">
               <picture class="reviews__slide-preview-image">
                 <source srcset="./img/webp/reviews__slider-img--1.webp">
-                <img src="./img/png/reviews__slider-img--1.png" alt="review">
+                <img height="121" width="121" src="./img/png/reviews__slider-img--1.png" alt="review">
               </picture>
               <div class="reviews__slide-content">
                 <h3 class="reviews__slide-title">Vinogradov Nikita and Oksana</h3>
@@ -228,7 +253,7 @@
             <div class="reviews__slide swiper-slide">
               <picture class="reviews__slide-preview-image">
                 <source srcset="./img/webp/reviews__slider-img--1.webp">
-                <img src="./img/png/reviews__slider-img--1.png" alt="review">
+                <img height="121" width="121" src="./img/png/reviews__slider-img--1.png" alt="review">
               </picture>
               <div class="reviews__slide-content">
                 <h3 class="reviews__slide-title">Alexander and Vera</h3>
@@ -273,6 +298,7 @@
         </div>
       </div>
     </section>
+    
     <section class="video">
       <div class="container">
         <h2 class="video__title">Promo video</h2>
@@ -281,6 +307,7 @@
         </div>
       </div>
     </section>
+    
     <section class="clients">
       <div class="container clients__container">
       <h2 class="clients__title">OUR CLIENTS</h2>
@@ -384,9 +411,10 @@
           </div>
       </div>
       </div>
-    </section>
+    </section> 
   </main>
-  <footer class="footer">
+ 
+ <footer class="footer"> 
     <div class="container">
       <div class="footer__items">
         <div class="footer__item">
@@ -429,7 +457,7 @@
         </div>
       </footer>
     </div>
-  </footer>
+  </footer> 
 
   <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
