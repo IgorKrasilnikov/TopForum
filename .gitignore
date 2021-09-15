@@ -1,2 +1,5 @@
 node_modules
-gulpfile.js 
+gulpfile.js
+package.json
+package-lock.json
+README.md
